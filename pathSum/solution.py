@@ -5,7 +5,7 @@ class TreeNode(object):
         self.left = left
         self.right = right
 
-class Solution(object):
+class Solution(object) :
     def hasPathSum(self, root, targetSum):
 
         if not root: # case for if tree is empty
